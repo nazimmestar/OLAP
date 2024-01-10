@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="670.0" prefWidth="960.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.AcceuilleController">
+   <children>
+      <ChoiceBox fx:id="box1" layoutX="191.0" layoutY="61.0" prefHeight="26.0" prefWidth="105.0" />
+      <ChoiceBox fx:id="box2" layoutX="348.0" layoutY="61.0" prefHeight="26.0" prefWidth="105.0" />
+      <ChoiceBox fx:id="box3" layoutX="508.0" layoutY="61.0" prefHeight="26.0" prefWidth="105.0" />
+      <ChoiceBox fx:id="box4" layoutX="663.0" layoutY="61.0" prefHeight="26.0" prefWidth="105.0" />
+      <TableView fx:id="Trapidite" layoutX="57.0" layoutY="213.0" prefHeight="386.0" prefWidth="831.0">
+        <columns>
+          <TableColumn fx:id="cln_1" prefWidth="81.59997177124023" />
+          <TableColumn fx:id="cln_2" prefWidth="77.60000610351562" />
+            <TableColumn fx:id="cln_3" prefWidth="73.60005187988281" />
+            <TableColumn fx:id="cln_4" prefWidth="79.20001220703125" />
+            <TableColumn fx:id="cln_5" prefWidth="95.199951171875" />
+            <TableColumn fx:id="cln_6" prefWidth="104.0" />
+            <TableColumn fx:id="cln_7" prefWidth="104.00006103515625" />
+            <TableColumn fx:id="cln_8" prefWidth="96.79998779296875" />
+            <TableColumn fx:id="cln_9" prefWidth="120.79998779296875" />
+        </columns>
+      </TableView>
+      <Button layoutX="859.0" layoutY="139.0" mnemonicParsing="false" onAction="#groupe" prefHeight="26.0" prefWidth="86.0" text="Annalyser" />
+      <Label layoutX="209.0" layoutY="30.0" text="Dimention 1">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="365.0" layoutY="30.0" text="Dimention 2">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="525.0" layoutY="30.0" text="Dimention 3">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="680.0" layoutY="30.0" text="Dimention 4">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Button layoutX="143.0" layoutY="623.0" mnemonicParsing="false" onAction="#btn_max" text="employees who have more days late (max)" />
+      <Button layoutX="543.0" layoutY="623.0" mnemonicParsing="false" onAction="#btn_min" text="employees who have les days late (min)" />
+   </children>
+</AnchorPane>

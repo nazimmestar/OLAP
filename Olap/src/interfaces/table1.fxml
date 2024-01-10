@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="840.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TableView fx:id="Trapidite" layoutX="4.0" layoutY="7.0" prefHeight="386.0" prefWidth="831.0">
+         <columns>
+            <TableColumn fx:id="cln_codec" prefWidth="81.59997177124023" text="Code clien" />
+            <TableColumn fx:id="cln_codp" prefWidth="77.60000610351562" text="num prod" />
+            <TableColumn fx:id="cln_codee" prefWidth="73.60005187988281" text="num emp" />
+            <TableColumn fx:id="cln_codem" prefWidth="79.20001220703125" text="num mois" />
+            <TableColumn fx:id="cln_rd" prefWidth="95.199951171875" text="reatrd debut" />
+            <TableColumn fx:id="cln_rf" prefWidth="104.0" text="retard fin" />
+            <TableColumn fx:id="cln_nbr" prefWidth="104.00006103515625" text="nbr jours retard" />
+            <TableColumn fx:id="cln_dp" prefWidth="96.79998779296875" text="duree prevue" />
+            <TableColumn fx:id="cln_dr" prefWidth="120.79998779296875" text="duree reel" />
+         </columns>
+      </TableView>
+   </children>
+</AnchorPane>
